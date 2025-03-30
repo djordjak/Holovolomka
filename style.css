@@ -66,5 +66,9 @@ header {
     .puzzle-card {
         width: 90%;
     }
+    .puzzle-card:hover {
+        transform: scale(1);
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    }    
 }
 
